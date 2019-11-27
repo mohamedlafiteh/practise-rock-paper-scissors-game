@@ -4,11 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Rock-Paper-Scissors</title>
+    <title>Rock Paper Scissors Game</title>
   </head>
   <body>
-    <div id="list">
-      <h1>Rock-Paper-Scissors</h1>
+    <header>Rock-Paper-Scissors</header>
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="comp-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div class="result">
+      <p>paper covers rock, you win!</p>
+    </div>
+    <div class="choices">
+      <div class="choice">
+        <img src="pic/rock.png" alt="" />
+      </div>
+      <div class="choice">
+        <img src="pic/paper--left.png" alt="" />
+      </div>
+      <div class="choice">
+        <img src="pic/scissors--left.png" alt="" />
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
